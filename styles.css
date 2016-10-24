@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Domine|Roboto:300,700&subset=latin,latin-ext);
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Domine", serif;
+  font-weight: normal;
+  line-height: 1;
+  text-align: center;
+  line-height: 1;
+  text-align: center;
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  background: #f7f2d3;
+  background: -moz-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #f7f2d3));
+  background: -webkit-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -o-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: -ms-radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background: radial-gradient(center, circle cover, white 0%, #f7f2d3 100%);
+  background-color: #f7f3de;
+}
+
+main {
+  /* flex: 1; would be enough but it looks bad in IE */
+  flex: 1 0 auto;
+}
+
+h1 {
+  font-size: 12vmin;
+  margin: 4vmin 0 2vmin 0;
+  color: #333;
+  font-family: "Roboto", Impact, sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: normal;
+  //text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word;
+}
+
+img#image {
+  height: 50vmin;
+  margin: 2vmin 0 2vmin 0;
+  background: rgba(255, 255, 255, 0.12);
+  //border: 4px solid #333;
+  box-shadow: 0 0 2vmin rgba(0, 0, 0, 0.35);
+}
+
+#button {
+  font-family: "Roboto";
+  font-weight: light;
+  font-size: 2.5vmin;
+  background: #f7f2d3;
+  padding: 0.5em 1em;
+  border-radius: 2px;
+  display: inline-block;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  margin: 1vmin;
+  color: black;
+}
+
+#button:hover {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+  background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+  background-image: -moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));
+  background-image: -o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+  background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+}
+
+#button:active {
+  box-shadow: 0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+}
+
+div#text {
+  font-size: 4vmin;
+  margin: 1vmin 12vw;
+  line-height: 1.3;
+}
+
+footer {
+  height: 3vh;
+  font-size: 2vmin;
+  margin-top: 2vh;
+  margin-bottom: 0.5vmin;
+  vertical-align: bottom;
+}
+
+a {
+  color: #8b743d;
+  text-decoration: none;
+  -webkit-transition: color .15s ease;
+  -moz-transition: color .15s ease;
+  transition: color .15s ease;
+}
+
+a:hover {
+  color: #c0a86e;
+  text-shadow: none;
+  border: none;
+}
